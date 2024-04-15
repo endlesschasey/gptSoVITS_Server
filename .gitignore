@@ -13,6 +13,6 @@ TEMP
 *.exe
 *.wav
 *.list
-config.py
+*config.py
 
 
