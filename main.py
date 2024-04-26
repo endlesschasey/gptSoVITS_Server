@@ -37,8 +37,6 @@ class AudioResponse(BaseModel):
     model_name: str
     output_path: str
     text: str
-    
-    
 
 class PredictManager:
     OUTPUT_DIR = "output"
@@ -52,7 +50,6 @@ class PredictManager:
         self.client = self.init_bucket()
         
     def init_bucket(self, ):
-
         region = 'ap-shanghai'
                                 
         token = None
