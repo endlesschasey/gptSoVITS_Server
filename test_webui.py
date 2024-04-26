@@ -7,6 +7,15 @@ import json
 import subprocess
 import logging
 
+# {
+# "model_name": "",
+# "gpt_path":"",
+# "sovits_path":"",
+# "ref_wav_path":"除了大量属星加成神器，还能在战斗中释放超强专属技能。",
+# "prompt_text":"D:\\GPT-SoVITS\\slice_output\\3b26ae3e-c785-40de-b174-cdaaaa803ecb\\drama_d_1020.mp3_0_160000.wav",
+# "prompt_language":"中文"
+# }
+
 # 配置日志记录器
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -167,7 +176,7 @@ async def run_concurrent_generation_test(num_servers, max_models, num_models, ta
         server_processes.append(server_process)
         api_url = f"http://localhost:{port}"
         api_urls.append(api_url)
-    time.sleep(10)
+    time.sleep(15)
     # 初始化管理器
     for api_url in api_urls:
         init_manager(api_url, max_models)

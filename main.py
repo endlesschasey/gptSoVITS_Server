@@ -37,8 +37,6 @@ class AudioResponse(BaseModel):
     model_name: str
     output_path: str
     text: str
-    
-    
 
 class PredictManager:
     OUTPUT_DIR = "output"
@@ -79,7 +77,7 @@ class PredictManager:
             del self.model_executors[least_used_model]
             del self.model_usage[least_used_model]
 
-        self.predict_models[model_name] = TTSModel(sovits_path, gpt_path)
+        self.predict_models[model_name] = TTSModel(None, None)
         self.model_info[model_name] = (ref_wav_path, prompt_text, prompt_language)
         self.model_executors[model_name] = ThreadPoolExecutor()
         self.model_usage[model_name] = {'count': 0, 'last_used': datetime.now()}
