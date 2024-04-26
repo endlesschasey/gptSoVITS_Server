@@ -1,0 +1,280 @@
+阿库娅:
+  gpt_path: 阿库娅.ckpt
+  sovits_path: 阿库娅.pth
+  prompt_text: "你说我的手有点冰凉，那，能借你的手暖和一下吗？"
+  ref_wav_path: "阿库娅_阿库娅3.ogg_0000000000_0000192640.wav"
+  prompt_language: "中文"
+
+阿莱莎:
+  gpt_path: 阿莱莎.ckpt
+  sovits_path: 阿莱莎.pth
+  prompt_text: "我的舞蹈收费可是很高的哦，但如果是单独给你看的话。"
+  ref_wav_path: "阿莱莎_阿莱莎3.ogg_0000000000_0000243840.wav"
+  prompt_language: "中文"
+
+比约恩:
+  gpt_path: 比约恩.ckpt
+  sovits_path: 比约恩.pth
+  prompt_text: "我这脑袋不好使，但要是比力量的话，我比约恩不会输给任何人。"
+  ref_wav_path: "比约恩_比约恩3.ogg_0000000000_0000236800.wav"
+  prompt_language: "中文"
+
+波琪:
+  gpt_path: 波琪.ckpt
+  sovits_path: 波琪.pth
+  prompt_text: "长矛可不会饶过任何别有用心的人，谁都别想从我的手下逃走。"
+  ref_wav_path: "波琪_波琪_3.ogg_0000000000_0000176320.wav"
+  prompt_language: "中文"
+
+妃:
+  gpt_path: 妃.ckpt
+  sovits_path: 妃.pth
+  prompt_text: "您可是商会的贵宾来，请随我到二楼。"
+  ref_wav_path: "妃_54040_fei_3.wav_0000000000_0000145920.wav"
+  prompt_language: "中文"
+
+菲尼:
+  gpt_path: 菲尼.ckpt
+  sovits_path: 菲尼.pth
+  prompt_text: "不论有怎样的困难，菲尼佣兵团都会帮你摆平"
+  ref_wav_path: "菲尼_菲尼_3.ogg_0000000000_0000128000.wav"
+  prompt_language: "中文"
+
+弗洛基:
+  gpt_path: 弗洛基.ckpt
+  sovits_path: 弗洛基.pth
+  prompt_text: "人生是仅有一次的盛大演出，每个人都老老实实的扮演自己的角色，不觉得太无聊了吗？"
+  ref_wav_path: "弗洛基_弗洛基3.ogg_0000000000_0000219520.wav"
+  prompt_language: "中文"
+
+海伦:
+  gpt_path: 海伦.ckpt
+  sovits_path: 海伦.pth
+  prompt_text: "欢迎踏入北境的土地，外来者。"
+  ref_wav_path: "海伦_海伦.ogg_0000000000_0000136640.wav"
+  prompt_language: "中文"
+
+汉诺克:
+  gpt_path: 汉诺克.ckpt
+  sovits_path: 汉诺克.pth
+  prompt_text: "唯有变革才能引领我们走向下一个时代。"
+  ref_wav_path: "汉诺克_汉诺克3.ogg_0000000000_0000145280.wav"
+  prompt_language: "中文"
+
+肯特:
+  gpt_path: 肯特.ckpt
+  sovits_path: 肯特.pth
+  prompt_text: "有我在的话，这些野兽不敢对你张牙舞爪。"
+  ref_wav_path: "肯特_肯特_3.ogg_0000000000_0000128000.wav"
+  prompt_language: "中文"
+
+克莉斯多:
+  gpt_path: 克莉斯多.ckpt
+  sovits_path: 克莉斯多.pth
+  prompt_text: "有的人从镜子中看到自己的优点，有的人看到缺点。"
+  ref_wav_path: "克莉斯多_克莉斯多_3.ogg_0000000000_0000167360.wav"
+  prompt_language: "中文"
+
+拉米亚:
+  gpt_path: 拉米亚.ckpt
+  sovits_path: 拉米亚.pth
+  prompt_text: "阿库雅是个善良又充满活力的孩子，请代替我这个没用的姐姐。"
+  ref_wav_path: "拉米亚_拉米亚3.ogg_0000019840_0000207040.wav"
+  prompt_language: "中文"
+
+莱昂:
+  gpt_path: 莱昂.ckpt
+  sovits_path: 莱昂.pth
+  prompt_text: "是男子汉的话，就靠勇气，将所有阻碍踢到一边去。"
+  ref_wav_path: "莱昂_莱昂.ogg_0000000000_0000189760.wav"
+  prompt_language: "中文"
+
+雷迪克:
+  gpt_path: 雷迪克.ckpt
+  sovits_path: 雷迪克.pth
+  prompt_text: "你让我来帮助你吧，不？"
+  ref_wav_path: "雷迪克_雷迪克1.ogg_0000000000_0000194880.wav"
+  prompt_language: "中文"
+
+蕾娜:
+  gpt_path: 蕾娜.ckpt
+  sovits_path: 蕾娜.pth
+  prompt_text: "有温暖的烛光在蕾娜身旁。"
+  ref_wav_path: "蕾娜_蕾娜.ogg_0000002880_0000132800.wav"
+  prompt_language: "中文"
+
+里查德:
+  gpt_path: 里查德.ckpt
+  sovits_path: 里查德.pth
+  prompt_text: "天才和疯子只有一线之差，而我好疑问就是那个天才哈哈。"
+  ref_wav_path: "里查德_里查德3.ogg_0000000000_0000271680.wav"
+  prompt_language: "中文"
+
+铃:
+  gpt_path: 铃.ckpt
+  sovits_path: 铃.pth
+  prompt_text: "你知道吗？风信子这种花只要过了寒冬。"
+  ref_wav_path: "铃_铃1.ogg_0000000000_0000159680.wav"
+  prompt_language: "中文"
+
+露:
+  gpt_path: 露.ckpt
+  sovits_path: 露.pth
+  prompt_text: "寒冷冰雪中是你给了我新的容身之处。"
+  ref_wav_path: "露_露3.ogg_0000000000_0000151360.wav"
+  prompt_language: "中文"
+
+莓:
+  gpt_path: 莓.ckpt
+  sovits_path: 莓.pth
+  prompt_text: "谎话只要不被戳破，那就是真的了。"
+  ref_wav_path: "莓_莓3.ogg_0000000000_0000150400.wav"
+  prompt_language: "中文"
+
+梅丽莎:
+  gpt_path: 梅丽莎.ckpt
+  sovits_path: 梅丽莎.pth
+  prompt_text: "放心放心，本小姐的药不会让你中毒挂掉的了。"
+  ref_wav_path: "梅丽莎_梅丽莎2.ogg_0000000000_0000130880.wav"
+  prompt_language: "中文"
+
+弥纱:
+  gpt_path: 弥纱.ckpt
+  sovits_path: 弥纱.pth
+  prompt_text: "人的命运要由自己做主，要将来之不易的自由。"
+  ref_wav_path: "弥纱_弥纱_3.ogg_0000000000_0000136640.wav"
+  prompt_language: "中文"
+
+米榭:
+  gpt_path: 米榭.ckpt
+  sovits_path: 米榭.pth
+  prompt_text: "想带你回到我的故乡，尝尝最地道的萨鲁特冰泉。"
+  ref_wav_path: "米榭_米榭_3.ogg_0000000000_0000146880.wav"
+  prompt_language: "中文"
+
+奈比:
+  gpt_path: 奈比.ckpt
+  sovits_path: 奈比.pth
+  prompt_text: "不用担心清扫敌人，也是我在黑羽党的工作之一"
+  ref_wav_path: "奈比_奈比_3.ogg_0000000000_0000144960.wav"
+  prompt_language: "中文"
+
+尼迪娅:
+  gpt_path: 尼迪娅.ckpt
+  sovits_path: 尼迪娅.pth
+  prompt_text: "沉睡的巨龙终有一日会浴火重生。"
+  ref_wav_path: "尼迪娅_尼迪娅3.ogg_0000000000_0000174080.wav"
+  prompt_language: "中文"
+
+骑士长艾尔:
+  gpt_path: 骑士长艾尔.ckpt
+  sovits_path: 骑士长艾尔.pth
+  prompt_text: "有人曾告诉我，重要的并非现在是什么人。"
+  ref_wav_path: "骑士长艾尔_骑士长艾尔3.ogg_0000000000_0000135680.wav"
+  prompt_language: "中文"
+
+茜希雅:
+  gpt_path: 茜希雅.ckpt
+  sovits_path: 茜希雅.pth
+  prompt_text: "去业者爱的含义，请你如愿告诉我哦。"
+  ref_wav_path: "茜希雅_茜希雅2.ogg_0000014080_0000189440.wav"
+  prompt_language: "中文"
+
+乔格:
+  gpt_path: 乔格.ckpt
+  sovits_path: 乔格.pth
+  prompt_text: "双刃将破开一切阻碍这次由我来给风雪的诅咒画下句号。"
+  ref_wav_path: "乔格_乔格.ogg_0000000000_0000195840.wav"
+  prompt_language: "中文"
+
+森森:
+  gpt_path: 森森.ckpt
+  sovits_path: 森森.pth
+  prompt_text: "我有全世界最好的爸爸香香，不会跟不认识的人走。"
+  ref_wav_path: "森森_森森.ogg_0000000000_0000202560.wav"
+  prompt_language: "中文"
+
+莎菲尔:
+  gpt_path: 莎菲尔.ckpt
+  sovits_path: 莎菲尔.pth
+  prompt_text: "精灵族的骄傲，就像这发光的宝石"
+  ref_wav_path: "莎菲尔_莎菲尔1.ogg_0000000000_0000131200.wav"
+  prompt_language: "中文"
+
+丝黛拉:
+  gpt_path: 丝黛拉.ckpt
+  sovits_path: 丝黛拉.pth
+  prompt_text: "追寻光明是人的本能，点点星辰，亦能汇成希望之光。"
+  ref_wav_path: "丝黛拉_丝黛拉3.ogg_0000000000_0000215360.wav"
+  prompt_language: "中文"
+
+维克:
+  gpt_path: 维克.ckpt
+  sovits_path: 维克.pth
+  prompt_text: "黑羽党不需要软弱无力的人，也不需要自以为是的人。"
+  ref_wav_path: "维克_维克_3.ogg_0000000000_0000170880.wav"
+  prompt_language: "中文"
+
+希尔:
+  gpt_path: 希尔.ckpt
+  sovits_path: 希尔.pth
+  prompt_text: "我代表蔷薇家族向你发出邀约，愿意和我一同度过下午茶时光吗？"
+  ref_wav_path: "希尔_希尔_3.ogg_0000000000_0000193600.wav"
+  prompt_language: "中文"
+
+小艾芙:
+  gpt_path: 小艾芙.ckpt
+  sovits_path: 小艾芙.pth
+  prompt_text: "这片森林的每一株花草，人家，可是全都记得啊。"
+  ref_wav_path: "小艾芙_小艾芙3.ogg_0000000000_0000164160.wav"
+  prompt_language: "中文"
+
+小麦:
+  gpt_path: 小麦.ckpt
+  sovits_path: 小麦.pth
+  prompt_text: "看到大家吃的开心，就是我最大的幸福啦。"
+  ref_wav_path: "小麦_小麦_3.wav_0000000000_0000131840.wav"
+  prompt_language: "中文"
+
+修:
+  gpt_path: 修.ckpt
+  sovits_path: 修.pth
+  prompt_text: "我唯一的血亲这次一定不会再跟他分离了。"
+  ref_wav_path: "修_修2.ogg_0000000000_0000142400.wav"
+  prompt_language: "中文"
+
+悬柃:
+  gpt_path: 悬柃.ckpt
+  sovits_path: 悬柃.pth
+  prompt_text: "我愿意将命运交付与你迟至你我。"
+  ref_wav_path: "悬柃_悬柃_3.ogg_0000000000_0000162240.wav"
+  prompt_language: "中文"
+
+雪菲_:
+  gpt_path: 雪菲_.ckpt
+  sovits_path: 雪菲_.pth
+  prompt_text: "让我一个人呆着都都说了，别靠过来了。"
+  ref_wav_path: "雪菲_雪菲_3.ogg_0000000000_0000150080.wav"
+  prompt_language: "中文"
+
+伊卡洛斯:
+  gpt_path: 伊卡洛斯.ckpt
+  sovits_path: 伊卡洛斯.pth
+  prompt_text: "这次又能看见什么样的景色呢？跟你旅行的每一天都充满期待呀。"
+  ref_wav_path: "伊卡洛斯_伊卡洛斯_3.ogg_0000000000_0000154560.wav"
+  prompt_language: "中文"
+
+伊丽莎白:
+  gpt_path: 伊丽莎白.ckpt
+  sovits_path: 伊丽莎白.pth
+  prompt_text: "不要太勉强自己了，要是累了的话。"
+  ref_wav_path: "伊丽莎白_伊丽莎白_4.ogg_0000000000_0000128960.wav"
+  prompt_language: "中文"
+
+优兰:
+  gpt_path: 优兰.ckpt
+  sovits_path: 优兰.pth
+  prompt_text: "与你一同度过的每分每秒，我都会铭记于心。"
+  ref_wav_path: "优兰_优兰_2_3.ogg_0000000000_0000152320.wav"
+  prompt_language: "中文"
+

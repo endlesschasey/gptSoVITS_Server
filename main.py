@@ -50,7 +50,6 @@ class PredictManager:
         self.client = self.init_bucket()
         
     def init_bucket(self, ):
-
         region = 'ap-shanghai'
                                 
         token = None
