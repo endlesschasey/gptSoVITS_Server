@@ -13,8 +13,45 @@ from tools.i18n.i18n import I18nAuto
 
 i18n = I18nAuto()
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+import logging
+import colorlog
+import random, asyncio
+from typing import Optional
+
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# 创建控制台处理器
+handler = logging.StreamHandler()
+
+# 设置具有多种颜色的日志格式
+color_formatter = colorlog.ColoredFormatter(
+    "%(log_color)s%(levelname)s%(reset)s:     %(asctime)s%(reset)s - %(log_color)s%(message)s",
+    datefmt="%Y-%m-%d  %H:%M:%S",
+    log_colors={
+        'DEBUG': 'cyan',
+        'INFO': 'green',
+        'WARNING': 'yellow',
+        'ERROR': 'red',
+        'CRITICAL': 'red,bg_white',
+    },
+    secondary_log_colors={
+        'asctime': {
+            'DEBUG': 'white',
+            'INFO': 'white',
+            'WARNING': 'white',
+            'ERROR': 'white',
+            'CRITICAL': 'white',
+        }
+    },
+    reset=True
+)
+
+handler.setFormatter(color_formatter)
+
+# 添加处理器到logger
+logger.addHandler(handler)
 
 class ModelInfo(BaseModel):
     role_name: str
@@ -68,10 +105,9 @@ class PredictManager:
         ref_wav_path, prompt_text, prompt_language = self.model_info[role_name]
         ref_wav_path = self.find_path(role_name, 'reference', ref_wav_path)
         try:
-            print(ref_wav_path, prompt_text, prompt_language, audio_info.text, audio_info.text_language)
             sampling_rate, audio_data = next(tts.get_tts_wav(ref_wav_path, prompt_text, prompt_language, 
                                                         audio_info.text, audio_info.text_language))
-            filename = f"{audio_info.task_id}.wav"
+            filename = f"{audio_info.task_id}.ogg"
             output_path = os.path.join(self.OUTPUT_DIR, filename)
             os.makedirs(self.OUTPUT_DIR, exist_ok=True)
             sf.write(output_path, audio_data, samplerate=sampling_rate)
@@ -118,7 +154,7 @@ async def generate_audio(audio_info: AudioInfo):
         raise HTTPException(status_code=404, detail="Model not found")
     try:
         absolute_output_path = predict_manager.submit_generate_audio(audio_info)
-        print(f"Worker App output path: {absolute_output_path}")
+        logger.info(f"Worker App output path: {absolute_output_path}")
         return {"task_id": audio_info.task_id, "status": "success", "output_path": absolute_output_path, "role_name": audio_info.role_name, "text": audio_info.text}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating audio: {str(e)}")

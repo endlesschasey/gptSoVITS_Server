@@ -290,8 +290,6 @@ class TTSModel:
             self.t2s_model = self.t2s_model.half()
         self.t2s_model = self.t2s_model.to(device)
         self.t2s_model.eval()
-        total = sum([param.nelement() for param in self.t2s_model.parameters()])
-        print("Number of parameter: %.2fM" % (total / 1e6))
 
     def get_tts_wav(self, ref_wav_path, prompt_text, prompt_language, text, text_language, how_to_cut=i18n("不切")):
         t0 = ttime()
